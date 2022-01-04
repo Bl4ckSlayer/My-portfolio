@@ -1,17 +1,20 @@
 body{
 
     font-family: 'Pushster', cursive;
+    margin: 0;
 }
 h1{
     font-size: 60px;
     
 
 }
+h2{font-size: 50px;}
 .orange-color{
     color: orange;
 }
-section{
+.flexible{
     display: flex;
+    margin-bottom: 150px;
 }
 .half-width{
     width: 50%;
@@ -22,13 +25,47 @@ section{
 }
 .link-button{
     text-decoration: none;
-    background-color: orange;
+ 
     padding: 10px 40px;
     border-radius: 50px;
     font-style: italic;
     font-weight: 900;
     font-size: larger;
-    color: rgb(245, 238, 238);
-    
-    background-image: linear-gradient(blue, rgb(15, 206, 212) );
+    color: rgb(245, 238, 238);    
+    background-image: linear-gradient(blue, rgb(5, 110, 114) );
 }
+.top-banner{background-image: url(images/top-banner.png);
+background-repeat: no-repeat;}
+.middle-banner{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-right: 10%;
+}
+.exp{background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+
+
+}
+.exp-item{ 
+    width: 40%;
+    margin-left: 5%;
+margin-right: 5%;
+    box-shadow: 15px 15px 30px rgb(153, 142, 142);
+    padding-left: 10%;
+
+}
+#web{
+border-left: 20px solid;
+    border-image: linear-gradient( blue,cyan);
+    border-image-slice: 1;
+}
+#baby{
+    border-right: 10px solid;
+        border-image: linear-gradient( #00ff4c,#9dff00);
+        border-image-slice: 1;
+    }
+    footer p{
+        text-align: center;
+    }
